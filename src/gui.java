@@ -24,6 +24,8 @@ public class gui extends JFrame {
 	private JButton button_6;
 	private JButton button_7;
 	private JButton button_8;
+	private JButton button_9;
+	
 
 	/**
 	 * Launch the application. Ram
@@ -144,7 +146,7 @@ public class gui extends JFrame {
 				txtRmas.setText(a+"4");
 			}
 		});
-		button_5.setBounds(121, 163, 85, 21);
+		button_5.setBounds(125, 163, 85, 21);
 		contentPane.add(button_5);
 		
 		button_6 = new JButton("5");
@@ -167,14 +169,25 @@ public class gui extends JFrame {
 		button_7.setBounds(237, 131, 85, 21);
 		contentPane.add(button_7);
 		
-		button_8 = new JButton("9");
-		button_8.addActionListener(new ActionListener() {
+
+		button_9 = new JButton("9");
+		button_9.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String a = txtRmas.getText();
 				txtRmas.setText(a+"9");
 			}
 		});
-		button_8.setBounds(237, 163, 85, 21);
+		button_9.setBounds(237, 163, 85, 21);
+
+		button_8 = new JButton("7");
+		button_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String a = txtRmas.getText();
+				txtRmas.setText(a+"7");
+			}
+		});
+		button_8.setBounds(22, 207, 89, 23);
+
 		contentPane.add(button_8);
 	}
 }
