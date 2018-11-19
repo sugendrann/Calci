@@ -178,6 +178,7 @@ public class gui extends JFrame {
 			}
 		});
 		button_9.setBounds(237, 163, 85, 21);
+		contentPane.add(button_9);
 
 		button_8 = new JButton("7");
 		button_8.addActionListener(new ActionListener() {
