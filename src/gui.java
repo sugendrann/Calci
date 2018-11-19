@@ -123,5 +123,25 @@ public class gui extends JFrame {
 		
 		button_1.setBounds(22, 130, 89, 23);
 		contentPane.add(button_1);
+		
+		JButton button_4 = new JButton("3");
+		button_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String a = txtRmas.getText();
+				txtRmas.setText(a+"3");
+			}
+		});
+		button_4.setBounds(22, 163, 85, 21);
+		contentPane.add(button_4);
+		
+		JButton button_5 = new JButton("4");
+		button_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String a = txtRmas.getText();
+				txtRmas.setText(a+"4");
+			}
+		});
+		button_5.setBounds(121, 163, 85, 21);
+		contentPane.add(button_5);
 	}
 }
