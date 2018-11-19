@@ -23,6 +23,7 @@ public class gui extends JFrame {
 	private JButton button_1;
 	private JButton button_6;
 	private JButton button_7;
+	private JButton button_8;
 
 	/**
 	 * Launch the application. Ram
@@ -165,5 +166,13 @@ public class gui extends JFrame {
 		});
 		button_7.setBounds(237, 131, 85, 21);
 		contentPane.add(button_7);
+		
+		button_8 = new JButton("7");
+		button_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		button_8.setBounds(22, 207, 89, 23);
+		contentPane.add(button_8);
 	}
 }
