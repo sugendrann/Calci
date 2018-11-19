@@ -12,6 +12,7 @@ import javax.swing.JButton;
 import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JRadioButton;
 
 public class gui extends JFrame {
 
@@ -177,6 +178,8 @@ public class gui extends JFrame {
 				txtRmas.setText(a+"9");
 			}
 		});
+		
+		
 		button_9.setBounds(237, 163, 85, 21);
 		contentPane.add(button_9);
 
@@ -190,5 +193,9 @@ public class gui extends JFrame {
 		button_8.setBounds(22, 207, 89, 23);
 
 		contentPane.add(button_8);
+		
+		JRadioButton rdbtnExecr = new JRadioButton("execr");
+		rdbtnExecr.setBounds(35, 58, 109, 23);
+		contentPane.add(rdbtnExecr);
 	}
 }
