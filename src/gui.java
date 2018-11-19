@@ -13,6 +13,7 @@ import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JRadioButton;
+import javax.swing.JLabel;
 
 public class gui extends JFrame {
 
@@ -195,5 +196,9 @@ public class gui extends JFrame {
 		JRadioButton rdbtnFdd = new JRadioButton("fdd");
 		rdbtnFdd.setBounds(175, 209, 105, 21);
 		contentPane.add(rdbtnFdd);
+		
+		JLabel lblHisatory = new JLabel("Hisatory");
+		lblHisatory.setBounds(126, 240, 46, 13);
+		contentPane.add(lblHisatory);
 	}
 }
