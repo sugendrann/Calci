@@ -13,6 +13,10 @@ import javax.swing.JTextField;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JRadioButton;
+<<<<<<< HEAD
+=======
+import javax.swing.JLabel;
+>>>>>>> branch 'master' of https://github.com/sugendrann/Calci.git
 
 public class gui extends JFrame {
 
@@ -80,12 +84,12 @@ public class gui extends JFrame {
 			}
 		
 		});
-		btnClickMe.setBounds(177, 183, 89, 23);
+		btnClickMe.setBounds(288, 163, 89, 67);
 		contentPane.add(btnClickMe);
 		
 		txtRmas = new JTextField();
 		
-		txtRmas.setBounds(38, 31, 199, 20);
+		txtRmas.setBounds(34, 10, 343, 65);
 		contentPane.add(txtRmas);
 		txtRmas.setColumns(10);
 		
@@ -106,7 +110,7 @@ public class gui extends JFrame {
 				txtRmas.setText(a+ "+");
 			}
 		});
-		button_3.setBounds(233, 85, 89, 23);
+		button_3.setBounds(288, 85, 89, 23);
 		contentPane.add(button_3);
 		
 		button = new JButton("1");
@@ -194,8 +198,6 @@ public class gui extends JFrame {
 
 		contentPane.add(button_8);
 		
-		JRadioButton rdbtnExecr = new JRadioButton("execr");
-		rdbtnExecr.setBounds(35, 58, 109, 23);
-		contentPane.add(rdbtnExecr);
+
 	}
 }
